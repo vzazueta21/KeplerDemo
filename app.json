@@ -1,0 +1,8 @@
+{
+  "//": "The declared app name must follow this pattern to be KRL-compatible",
+  "name": "com.amazon.kepleraccedo.main",
+  "displayName": "Kepleraccedo",
+  "reactNativeAppComponentName": "Kepleraccedo",
+  "appId": "com.amazon.kepleraccedo.main",
+  "windowTitle": "KeplerAccedo"
+}

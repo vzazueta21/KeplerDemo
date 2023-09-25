@@ -11,7 +11,8 @@
     "build": "npx react-native build-kepler",
     "sim-start": "kepler simulator start",
     "sim-shell": "kepler simulator shell",
-    "sim-stop": "kepler simulator stop"
+    "sim-stop": "kepler simulator stop",
+    "all": "npm run build && kepler install && kepler run-app"
   },
   "dependencies": {
     "@amzn/react-native-kepler": "file:/Users/accedo-gdl/kepler/kepler-sdk/0.2.6557.0/npm-registry/@amzn/kepler-067-npm-registry/amzn-react-native-kepler-0.67.3.tgz",

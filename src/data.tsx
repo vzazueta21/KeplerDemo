@@ -1,3 +1,6 @@
+const sampleUrl =
+  'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4';
+
 const DATA = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
@@ -25,4 +28,4 @@ const DATA = [
   },
 ];
 
-export default DATA;
+export {DATA, sampleUrl};

@@ -1,10 +1,8 @@
 import React from 'react';
 import {FlatList, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
-import DATA from './data';
+import {DATA} from './data';
 
-const Carousel = ({title}) => {
-  const onPressItem = () => {};
-
+const Carousel = ({title, onPressItem}) => {
   const renderItem = ({item}) => {
     return (
       <TouchableOpacity onPress={onPressItem} style={styles.item}>
@@ -28,10 +26,11 @@ const Carousel = ({title}) => {
 
 const styles = StyleSheet.create({
   carouselContainer: {
-    marginBottom: 20,
+    marginBottom: 30,
+    justifyContent: 'flex-start',
   },
   carouselTitle: {
-    fontSize: 50,
+    fontSize: 40,
     color: '#FFFFFF',
   },
   item: {
